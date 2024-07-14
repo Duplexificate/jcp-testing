@@ -1,10 +1,14 @@
 package src;
 
-public class helloworld<Integer> {
+public class helloworld{
+
+    static <String> void genericFunc(String element) {
+        System.out.println(element);
+    }
 
     public static void main(String[] args) {
 
-        helloworld<Integer> integerBox = new helloworld<Integer>();
+        genericFunc("Bonjour, Je suis juste un ninja avec des salutations!");
 
     }
 }
