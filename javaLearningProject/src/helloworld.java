@@ -1,10 +1,10 @@
 package src;
 
-class helloworld {
+public class helloworld<Integer> {
 
     public static void main(String[] args) {
 
-        System.out.println("Hello world!");
-        
+        helloworld<Integer> integerBox = new helloworld<Integer>();
+
     }
 }
